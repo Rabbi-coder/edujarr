@@ -12,6 +12,16 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+
+    fontFamily: {
+      rowdies: ["Rowdies", "cursive"],
+      saira: ["Saira", "sans-serif"],
+    },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["light"],
+  },
 };
