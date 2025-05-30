@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className='bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-500'>
             <div className='container mx-auto'>
-                <footer className="footer text-base-content p-10">
+                <footer className="footer text-base-content p-10 ">
                     <div className='grid grid-cols-4 gap-12'>
                         <nav>
                             <Link href="/">
@@ -52,6 +52,7 @@ const Footer = () => {
                                     <div>
                                         <a className="link link-hover text-white">About us</a>
                                     </div>
+
                                     <div className='pt-5'>
                                         <a className="link link-hover text-white">Course</a>
                                     </div>
@@ -67,7 +68,10 @@ const Footer = () => {
                             </div>
                         </nav>
                         <nav className='mx-auto'>
+
+
                             <h6 className="footer-title text-white">Contact us</h6>
+
                             <div className='grid grid-cols-2 gap-5 pt-[95px]'>
                                 <div>
                                     <div className='flex space-x-3 items-center'>
